@@ -1,0 +1,68 @@
+{
+  "product_info": {
+    "brand": "Parle-J",
+    "model": "Detected",
+    "category": "Food (Biscuits)"
+  },
+  "verification": {
+    "is_authentic_guess": "Counterfeit",
+    "confidence_score": 99,
+    "anomalies_detected": [
+      "The main brand name is 'Parle-J'. The widely recognized and authentic brand for 'Gluco Biscuits' is 'Parle-G'. This is a clear case of typosquatting, altering 'G' to 'J'.",
+      "The circular logo contains 'P-J', which is inconsistent with the authentic 'Parle-G' branding that typically features 'Parle' written out or a distinct 'G' logo/mark. The overall design mimics the authentic product but with critical discrepancies.",
+      "The product is identified as a counterfeit food item due to direct brand name manipulation (typosquatting).",
+      "Absence of an ingredient list, nutritional information, or manufacturer details, which are critical for consumer safety.",
+      "Counterfeit food products are unregulated and may contain undeclared or harmful ingredients, contaminants, banned additives, or incorrect allergen information, posing severe health risks."
+    ],
+    "detailed_reasoning": "The product immediately fails authentication due to clear typosquatting, presenting 'Parle-J' instead of the legitimate 'Parle-G' for 'Gluco Biscuits'. This is a direct attempt to deceive consumers by mimicking a well-known brand. The associated logo also reflects this altered branding ('P-J'). Without visible ingredient lists or manufacturer details, a counterfeit food item is inherently a High Risk to consumer safety, as its contents, quality, and hygiene cannot be verified.\n\nHealth Risk: High Risk"
+  },
+  "raw_forensic_analysis": {
+    "verdict": "Counterfeit",
+    "confidence_score": 0.99,
+    "detected_brand": "Parle-J",
+    "category_detected": "Food (Biscuits)",
+    "forensic_flags": [
+      {
+        "check": "Spelling Check",
+        "status": "FAIL",
+        "observation": "The main brand name is 'Parle-J'. The widely recognized and authentic brand for 'Gluco Biscuits' is 'Parle-G'. This is a clear case of typosquatting, altering 'G' to 'J'."
+      },
+      {
+        "check": "Logo & Graphic Analysis",
+        "status": "FAIL",
+        "observation": "The circular logo contains 'P-J', which is inconsistent with the authentic 'Parle-G' branding that typically features 'Parle' written out or a distinct 'G' logo/mark. The overall design mimics the authentic product but with critical discrepancies."
+      },
+      {
+        "check": "Typography Forensics",
+        "status": "N/A",
+        "observation": "While the font weight and kerning appear generally consistent within the provided text, the fundamental issue lies in the textual content itself (typosquatting) rather than subtle print errors, making deep typography forensics secondary to the immediate brand name failure."
+      },
+      {
+        "check": "Colorimetry",
+        "status": "N/A",
+        "observation": "The image is a flat, digitally rendered representation. It does not provide sufficient data to analyze color bleed, washed-out colors, or complex gradients as would be found on physical packaging."
+      },
+      {
+        "check": "Material Physics",
+        "status": "N/A",
+        "observation": "The image is a flat, digitally rendered representation. It does not provide sufficient data to analyze light reflection on physical packaging materials."
+      },
+      {
+        "check": "Data Correlation",
+        "status": "N/A",
+        "observation": "No manufacturing dates, batch codes, or additional text beyond the brand and product type are visible for cross-checking."
+      }
+    ],
+    "health_safety_assessment": {
+      "risk_level": "High Risk",
+      "flagged_components": [],
+      "safety_warnings": [
+        "The product is identified as a counterfeit food item due to direct brand name manipulation (typosquatting).",
+        "Absence of an ingredient list, nutritional information, or manufacturer details, which are critical for consumer safety.",
+        "Counterfeit food products are unregulated and may contain undeclared or harmful ingredients, contaminants, banned additives, or incorrect allergen information, posing severe health risks."
+      ]
+    },
+    "reasoning": "The product immediately fails authentication due to clear typosquatting, presenting 'Parle-J' instead of the legitimate 'Parle-G' for 'Gluco Biscuits'. This is a direct attempt to deceive consumers by mimicking a well-known brand. The associated logo also reflects this altered branding ('P-J'). Without visible ingredient lists or manufacturer details, a counterfeit food item is inherently a High Risk to consumer safety, as its contents, quality, and hygiene cannot be verified.",
+    "recommendation": "DO NOT PURCHASE OR CONSUME this product. It is unequivocally identified as a counterfeit. Report this product to the relevant consumer protection authorities and the original brand owner (Parle Products)."
+  }
+}

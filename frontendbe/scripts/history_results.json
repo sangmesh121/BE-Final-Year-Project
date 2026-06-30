@@ -1,0 +1,37 @@
+{
+  "success": true,
+  "logs": [
+    "Testing History...",
+    "Logged in: d4f4406d-368f-46ba-8e76-6b3f1ccb48ce",
+    "Inserting Scan...",
+    "Scan Inserted: 3de1bfee-ca82-4761-a876-7f820c8644c8",
+    "Inserting Result...",
+    "Result Inserted",
+    "Fetching History...",
+    "Found 1 history items.",
+    "First item ID: 3de1bfee-ca82-4761-a876-7f820c8644c8"
+  ],
+  "historyCount": 1,
+  "firstItem": {
+    "id": "3de1bfee-ca82-4761-a876-7f820c8644c8",
+    "user_id": "d4f4406d-368f-46ba-8e76-6b3f1ccb48ce",
+    "input_type": "upload",
+    "intent": "verify",
+    "image_url": "https://via.placeholder.com/150",
+    "website_url": null,
+    "created_at": "2026-02-13T07:27:36.48+00:00",
+    "scan_results": [
+      {
+        "id": "08e0364f-8614-4ee5-8a64-52aed8348ffd",
+        "brand": "Test Brand",
+        "scan_id": "3de1bfee-ca82-4761-a876-7f820c8644c8",
+        "metadata": {},
+        "created_at": "2026-02-13T07:27:50.109694+00:00",
+        "product_name": "Test Product",
+        "confidence_score": 0.95,
+        "authenticity_status": "Genuine"
+      }
+    ],
+    "price_results": []
+  }
+}

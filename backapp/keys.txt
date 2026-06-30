@@ -1,0 +1,22 @@
+KEYS:
+position
+title
+product_id
+product_link
+immersive_product_page_token
+serpapi_immersive_product_api
+source
+source_icon
+multiple_sources
+price
+extracted_price
+old_price
+extracted_old_price
+rating
+reviews
+thumbnail
+serpapi_thumbnail
+delivery
+--------------------
+LINK VALUES:
+product_link: https://www.google.co.in/search?ibp=oshop&q=Maggi Noodles&prds=catalogid:8270168435349849889,headlineOfferDocid:13185114960602567009,imageDocid:14488819027609534716,rds:PC_5612559541023374807|PROD_PC_5612559541023374807,gpcid:5612559541023374807,mid:576462537167542916,pvt:hg&hl=en&gl=in&udm=28
