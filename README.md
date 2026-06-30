@@ -48,3 +48,16 @@ The mobile/web app for scanning products.
 -   **Verify Authenticity**: AI feature analysis + visual reference check.
 -   **Check Price**: Find best online prices and sellers.
 -   **Product Details**: Get detailed specs and description.
+
+
+**##libraries**
+fastapi
+uvicorn
+python-multipart
+requests
+numpy
+pillow
+opencv-python-headless
+tensorflow
+google-generativeai
+python-dotenv
